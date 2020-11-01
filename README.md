@@ -30,8 +30,8 @@ The script plots the calculated methylations levels of the ROI for all samples o
 
 # Usage example for paired samples
 
-'''
+```
 Rscript MethylPatterViz.R --chr 12 --start 120703649 --end 120806190 --gene TEST -all_samples T --paired T --path /absolute/paht/of/genome/folder
-'''
+```
 
 It will create a folder named TEST contains all output files.
