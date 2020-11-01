@@ -10,7 +10,7 @@ The methylation levels are presented as percentages and it is based on the numbe
 
 -e, --end         : end of ROI.
 
--g, --gene        : name of the ROI/gene/promoter. It will be used as the name of the generated plots and output folder too.
+-g, --gene        : name of the ROI/GENE/promoter. It will be used as the name of the generated plots and output folder too.
 
 -a, --all_samples : process all samples in the folder. In this case the user should not specify individual samples.
 
@@ -20,6 +20,12 @@ The methylation levels are presented as percentages and it is based on the numbe
 
 --path            : path of the folder contains the chr sequences of the input genome.
 
-# Ouput files
+# Ouput files - methylation patterns
 
-The script plots the methylation patterns for all samples in PNG format. If your samples are indiviudal ones the script will create one file per sample. If you have paired samples the script will create one figure per sample pair. The file's names will contian the name of the input samples. The script will create an xlsx sheet named as "GENE"_methylation_patterns.xlsx wich contains the iput data for the methylation pattern figures.
+The script plots the methylation patterns (the percentage of methylation at certain position) for all samples in PNG format. If your samples are indiviudal ones the script will create one file per sample. If you have paired samples the script will create one figure per sample pair. The file's names will contian the name of the input samples. The script will create an xlsx sheet named as "GENE"_methylation_patterns.xlsx which contains the input data for the methylation pattern figures.
+
+# Ouput files - methylation levels
+
+The script plots the calculated methylations levels of the ROI for all samples on one figure (named as a "GENE"_methylation_levels.png) in PNG format. Also, it will create an xlsx sheet named as "GENE"_methylation_levels.xlsx which contains the input data for the methylation level figure.
+
+
