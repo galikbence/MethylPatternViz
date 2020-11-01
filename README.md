@@ -18,3 +18,4 @@ The methylation levels are presented as percentages and it is based on the numbe
 
 -p, --paired      : plot results as pairs, T(rue) or F(alse), only works with even number of samples.
 
+--path            : path of the folder contains the chr sequences of the input genome.
